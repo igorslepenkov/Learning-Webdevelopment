@@ -34,13 +34,13 @@ header {
     margin-bottom: 7.5em;
 }
 
-.header__logo__wrap {
+.header__logo {
     flex-grow: 1;
     display: flex;
     justify-content: flex-start;
 }
 
-.header__logo {
+.header__logo img {
     height: 2.5em;
     width: 12.5em;
 }
@@ -64,34 +64,34 @@ nav li {
 } 
 
 nav a {
-    color: #696871;
+    color: rgb(105, 104, 113);
     text-decoration: none;
 }
 
 nav a:hover {
-    border-bottom: 0.15em solid #5454d4;
+    border-bottom: 0.15em solid rgb(84, 84, 212);
     padding-bottom: 0.3em;
-    color: #19191b;
+    color: rgb(25, 25, 27);
 }
 
-.header__button__wrap {
+.header__button {
     flex-grow: 1;
     display: flex;
     justify-content: flex-end;
 }
 
-.header__button__wrap button {
+.header__button button {
     height: 3.8em;
     width: 12.5em;
     border-radius: 10px;
     border: none;
-    background-color: #ff7143;
+    background-color: rgb(255, 113, 67);
     color: rgb(255, 255, 255);
     font-size: 17px;
 }
 
-.header__button__wrap button:hover {
-    background-color: #fa4408;
+.header__button button:hover {
+    background-color: rgb(250, 68, 8);
 }
 
 .first-section {
@@ -120,14 +120,14 @@ h1 {
     height: 3.8em;
     border: none;
     border-radius: 0.63em;
-    background-color: #5454D4;
+    background-color: rgb(84, 84, 212);
     color: rgb(255, 255, 255);
     margin-right: 2.5em;
     font-size: 1.1em;
 }
 
 .get-started:hover {
-    background-color: #1c1cdb; 
+    background-color: rgb(28, 28, 219); 
 }
 
 .arrow-down {
@@ -135,7 +135,7 @@ h1 {
     width: 3.8em;
     height: 3.8em;
     border-radius: 50%;
-    border: 0.07em solid #e7e7e7;
+    border: 0.07em solid rgb(231, 231, 231);
     background-color: rgb(255, 255, 255);
 }
 
