@@ -4,26 +4,70 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Logoipsum</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
-    <header>
-        <img src="" alt="">
-        <nav>
-            <ul>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
-            </ul>   
-        </nav>
-        <button type="button">Get started</button>
-    </header>
-    <main>
-        <h1>Слепенков Игорь</h1>
-    </main>
-    <footer>
+    <div class="container">
+        <header>
+            <div class="header__logo">
+                <img src="logo.png" alt="Logo">
+            </div>
 
-    </footer>
+            <nav>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Features</a></li>
+                    <li><a href="">Pricing</a></li>
+                    <li><a href="">Blog</a></li>
+                </ul> 
+            </nav>
+
+            <div class="header__button">
+                <button type="button">Get started</button>
+            </div>
+        </header>
+        <main>
+            <section class="first-section">
+                <div class="first-section__left">
+                    <h1>Grow your <br> subscription <br> business</h1>
+                    <p>Outcome-centered products that reduce churn,<br>
+                        optimize pricing, and grow your subscription business <br> end-to-end.</p>
+
+                    <div class="first-section__buttons">
+                        <button class="get-started" type="button">Get started</button>
+                        <button class="arrow-down" type="button"><img src="arrow-down.png" alt="Arrow down"></button>
+                    </div>
+                </div>
+
+                <div class="first-section__right"> 
+                    <img class="first-section__image" src="hero.png" alt="Hero">
+                </div> 
+            </section>
+
+            <aside class="logo-bar">
+                <div class="logo-bar__image">
+                    <img src="logo-logoipsum/1.png" alt="first logo">
+                </div>
+                <div class="logo-bar__image">
+                    <img src="logo-logoipsum/2.png" alt="second logo">
+                 </div>
+                <div class="logo-bar__image">
+                    <img src="logo-logoipsum/3.png" alt="third logo">
+                </div>
+                <div class="logo-bar__image">
+                    <img src="logo-logoipsum/4.png" alt="fourth logo">
+                </div>
+                <div class="logo-bar__image">
+                    <img src="logo-logoipsum/5.png" alt="fifth logo">
+                </div>
+            </aside>
+
+        </main>
+        <footer>
+
+        </footer>
+    </div>  
 </body>
 </html>
