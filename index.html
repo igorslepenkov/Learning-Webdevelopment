@@ -4,70 +4,65 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Logoipsum</title>
+    <title>AXIT</title>
     <link rel="stylesheet" href="styles.css">
-    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="banner.css">
 </head>
 <body>
     <div class="container">
-        <header>
-            <div class="header__logo">
-                <img src="logo.png" alt="Logo">
-            </div>
-
-            <nav>
-                <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Features</a></li>
-                    <li><a href="">Pricing</a></li>
-                    <li><a href="">Blog</a></li>
-                </ul> 
-            </nav>
-
-            <div class="header__button">
-                <button type="button">Get started</button>
-            </div>
-        </header>
-        <main>
-            <section class="first-section">
-                <div class="first-section__left">
-                    <h1>Grow your <br> subscription <br> business</h1>
-                    <p>Outcome-centered products that reduce churn,<br>
-                        optimize pricing, and grow your subscription business <br> end-to-end.</p>
-
-                    <div class="first-section__buttons">
-                        <button class="get-started" type="button">Get started</button>
-                        <button class="arrow-down" type="button"><img src="arrow-down.png" alt="Arrow down"></button>
+        <div class="header-wrap">
+            <div class="header-opacity">
+                <header class="header">
+                    <div class="header__logo">
+                        <img class="header__img1" src="AX.png" alt="First part of logo">
+                        <img class="header__img2" src="IT.png" alt="Second part of logo">
                     </div>
-                </div>
+                    <ul class="header__list">
+                        <li><a href="#">Features</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="#">Reviews</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </header>
+                <section class="banner">
+                    <div class="banner-left">
+                        <img src="AX.png" alt="First part of logo">
+                        <img src="IT.png" alt="Second part of logo">
+                        <h1>Modern axure template <br> for beautiful <br> prototypes</h1>
+                        <img src="separator.png" alt="Separator">
+                        <p>Lorem ipsum dolor sit amet, <br> consectetur adipiscing elit</p>
+                        <button>Download</button>
+                    </div>
+                    <div class="banner-right">
+                        <form class="banner__form" action="#" method="post">
+                                <h2>Try your <span>free</span> trial today</h2>
+                                
+                                <div class="banner__inner-grid">
+                                    <div class="banner__form-row">
+                                        <input type="text" id="name" name="user.name" placeholder="Name">
+                                    </div>
 
-                <div class="first-section__right"> 
-                    <img class="first-section__image" src="hero.png" alt="Hero">
-                </div> 
-            </section>
+                                    <div class="banner__form-row">
+                                        <input type="text" id="email" name="user.email" placeholder="Email">
+                                    </div>
 
-            <aside class="logo-bar">
-                <div class="logo-bar__image">
-                    <img src="logo-logoipsum/1.png" alt="first logo">
-                </div>
-                <div class="logo-bar__image">
-                    <img src="logo-logoipsum/2.png" alt="second logo">
-                 </div>
-                <div class="logo-bar__image">
-                    <img src="logo-logoipsum/3.png" alt="third logo">
-                </div>
-                <div class="logo-bar__image">
-                    <img src="logo-logoipsum/4.png" alt="fourth logo">
-                </div>
-                <div class="logo-bar__image">
-                    <img src="logo-logoipsum/5.png" alt="fifth logo">
-                </div>
-            </aside>
+                                    <div class="banner__form-row">
+                                        <input type="text" id="password" name="user.password" placeholder="Password">
+                                    </div>
+                                </div>
 
-        </main>
+                                <button type="submit">Get started</button>
+                        </form>
+                    </div>
+                </section>
+            </div>
+        </div>
         <footer>
 
         </footer>
-    </div>  
+    </div>
+    
 </body>
 </html>
