@@ -1,70 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AXIT</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="header.css">
     <link rel="stylesheet" href="banner.css">
 </head>
+
 <body>
-    <div class="container">
-        <div class="header-wrap">
-            <div class="header-opacity">
-                <header class="header">
-                    <div class="header__logo">
-                        <img class="header__img1" src="AX.png" alt="First part of logo">
-                        <img class="header__img2" src="IT.png" alt="Second part of logo">
-                    </div>
-                    <nav>
-                        <ul class="header__list">
-                            <li><a href="#">Features</a></li>
-                            <li><a href="#">About</a></li>
-                            <li><a href="#">Pricing</a></li>
-                            <li><a href="#">Reviews</a></li>
-                            <li><a href="#">Contact</a></li>
-                        </ul>
-                    </nav>
-                </header>
-                <section class="banner">
-                    <div class="banner-left">
-                        <img src="AX.png" alt="First part of logo">
-                        <img src="IT.png" alt="Second part of logo">
-                        <h1>Modern axure template <br> for beautiful <br> prototypes</h1>
-                        <img src="separator.png" alt="Separator">
-                        <p>Lorem ipsum dolor sit amet, <br> consectetur adipiscing elit</p>
-                        <button>Download</button>
-                    </div>
-                    <div class="banner-right">
-                        <form class="banner__form" action="#" method="post">
-                                <h2>Try your <span>free</span> trial today</h2>
-                                
-                                <div class="banner__inner-grid">
-                                    <div class="banner__form-row">
-                                        <input type="text" id="name" name="user.name" placeholder="Name">
-                                    </div>
-
-                                    <div class="banner__form-row">
-                                        <input type="text" id="email" name="user.email" placeholder="Email">
-                                    </div>
-
-                                    <div class="banner__form-row">
-                                        <input type="text" id="password" name="user.password" placeholder="Password">
-                                    </div>
-                                </div>
-
-                                <button type="submit">Get started</button>
-                        </form>
-                    </div>
-                </section>
-            </div>
+    <div class="header-wrap">
+        <div class="header-opacity">
+            <header class="header">
+                <div class="header__logo">
+                    <img class="header__img1" src="AX.png" alt="First part of logo">
+                    <img class="header__img2" src="IT.png" alt="Second part of logo">
+                </div>
+                <nav>
+                    <ul class="header__list">
+                        <li><a href="#">Features</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="#">Reviews</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <section class="banner">
+                <div class="banner-left">
+                    <img src="AX.png" alt="First part of logo">
+                    <img src="IT.png" alt="Second part of logo">
+                    <h1>Modern axure template <br> for beautiful <br> prototypes</h1>
+                    <img src="separator.png" alt="Separator">
+                    <p>Lorem ipsum dolor sit amet, <br> consectetur adipiscing elit</p>
+                    <button>Download</button>
+                </div>
+                <div class="banner-right">
+                    <form class="banner__form" action="#" method="post">
+                        <h2>Try your <span>free</span> trial today</h2>
+                        <div class="banner__form-inner">
+                            <div class="banner__form-row">
+                                <input type="text" id="name" name="user.name" required>
+                                <label for="name">Name</label>
+                            </div>
+                            <div class="banner__form-row">
+                                <input type="text" id="email" name="user.email" required>
+                                <label for="email">Email</label>
+                            </div>
+                            <div class="banner__form-row">
+                                <input type="text" id="password" name="user.password" required>
+                                <label for="password">Password</label>
+                            </div>
+                        </div>
+                        <button type="submit">Get started</button>
+                    </form>
+                </div>
+            </section>
         </div>
-        <footer>
-
-        </footer>
     </div>
-    
 </body>
+
 </html>
