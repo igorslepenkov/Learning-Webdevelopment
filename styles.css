@@ -1,11 +1,16 @@
 :root{
     font-size: 16px;
-    font-family:'Open Sans', sans-serif;
     display: flex;
     justify-content: center;
+    --main-font-family:'Open Sans', sans-serif;
+    --second-font-family: 'Raleway', sans-serif;
+    --main-container-width: 94.375rem;
+    --main-section-width: 73.125rem;
+    --main-section-margin: 0 10.625rem;
 }
 
 body {
+    font-family: var(--main-font-family);
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -14,9 +19,9 @@ body {
 
 .header-wrap {
     display: flex;
-    width: 94.38rem;
+    width: var(--main-container-width);
     height: 64.13rem;
-    margin: 0.94rem;
+    margin-top: 0.94rem;
     background-image: url("image.png");
     background-size: auto;
     background-repeat: no-repeat;

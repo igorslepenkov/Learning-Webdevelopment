@@ -1,0 +1,120 @@
+.wrap-social{
+    width: var(--main-container-width);
+    background-color: rgb(248, 239, 239);
+}
+
+.social {
+    width: var(--main-section-width);
+    margin: var(--main-section-margin);
+    display: flex;
+}
+
+.socail__text {
+    flex-grow: 1;
+    font-size: 1.5rem;
+}
+
+.social__text p {
+    font-family: var(--second-font-family);
+    font-size: 1.125rem;
+}
+
+.social__networks {
+    flex-grow: 1;
+    height: 8.75rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.wrap-main1 {
+    padding-top: 6.88rem;
+    width: var(--main-container-width);
+    background-color: rgb(255, 255, 255);
+    padding-bottom: 6.25rem;
+}
+
+.main1 {
+    width: var(--main-section-width);
+    margin: var(--main-section-margin);
+}
+
+.main1__buttons {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.main1__buttons button {
+    width: 11.5rem;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 0.63rem 0;
+    font-family: var(--main-font-family);
+    font-size: 14px;
+}
+
+.main1__buttons > .tab1 {
+    z-index: 2;
+    width: 12.56rem;
+    border-right: 1px solid rgb(198, 203, 205);
+    border-left: 1px solid rgb(198, 203, 205);
+    border-top: 1px solid rgb(198, 203, 205);
+    margin-bottom: -1px;
+    border-bottom: 5px solid rgb(255, 255, 255);
+    border-radius: 10px 10px 0 0;
+}
+
+.buttons-half > .tab2, .buttons-half > .tab3 {
+    width: 11.5rem;
+    border-bottom: 1px solid rgb(198, 203, 205);
+}
+
+.main1__content {
+    box-sizing: border-box;
+    border: 1px solid rgb(198, 203, 205);
+    display: flex;
+    justify-content: space-between;
+}
+
+.main1__content > img {
+    width: 29.38rem;
+    height: 31.25rem;
+}
+
+.main1__content-text {
+    margin-left: 6.25rem;
+}
+
+.main1__content-text h2 {
+    margin-top: 0;
+    line-height: 7.75rem;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 1.88rem;
+}
+
+.main1__content-text p {
+    margin-bottom: 1.69rem;
+    font-family: var(--second-font-family);
+    font-size: 1.13rem;
+}
+
+.main1__content-text button {
+    width: 16.88rem;
+    height: 3.63rem;
+    background-color: rgb(236, 121, 121);
+    border: none;
+    color: rgb(255, 255, 255);
+    font-family: var(--main-font-family);
+    font-size: 1.13rem; 
+}
+
+.main1__content-text button:hover {
+    background-color: rgb(171, 73, 73);
+}
+
+.main1__content-text button:active {
+    background-color: rgb(236, 121, 121);
+    box-shadow: 0px 0px 9px 3px rgb(217, 74, 74) inset;
+}
