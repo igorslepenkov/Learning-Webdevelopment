@@ -1,73 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Logoipsum</title>
+    <title>AXIT</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
-    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="banner.css">
+    <link rel="stylesheet" href="social.css">
 </head>
+
 <body>
-    <div class="container">
-        <header>
-            <div class="header__logo">
-                <img src="logo.png" alt="Logo">
-            </div>
-
-            <nav>
-                <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Features</a></li>
-                    <li><a href="">Pricing</a></li>
-                    <li><a href="">Blog</a></li>
-                </ul> 
-            </nav>
-
-            <div class="header__button">
-                <button type="button">Get started</button>
-            </div>
-        </header>
-        <main>
-            <section class="first-section">
-                <div class="first-section__left">
-                    <h1>Grow your <br> subscription <br> business</h1>
-                    <p>Outcome-centered products that reduce churn,<br>
-                        optimize pricing, and grow your subscription business <br> end-to-end.</p>
-
-                    <div class="first-section__buttons">
-                        <button class="get-started" type="button">Get started</button>
-                        <button class="arrow-down" type="button"><img src="arrow-down.png" alt="Arrow down"></button>
-                    </div>
+    <div class="header-wrap">
+        <div class="header-opacity">
+            <header class="header">
+                <div class="header__logo">
+                    <img class="header__img1" src="AX.png" alt="First part of logo">
+                    <img class="header__img2" src="IT.png" alt="Second part of logo">
                 </div>
-
-                <div class="first-section__right"> 
-                    <img class="first-section__image" src="hero.png" alt="Hero">
-                </div> 
+                <nav>
+                    <ul class="header__list">
+                        <li><a href="#">Features</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="#">Reviews</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <section class="banner">
+                <div class="banner-left">
+                    <img src="AX.png" alt="First part of logo">
+                    <img src="IT.png" alt="Second part of logo">
+                    <h1>Modern axure template <br> for beautiful <br> prototypes</h1>
+                    <img src="separator.png" alt="Separator">
+                    <p>Lorem ipsum dolor sit amet, <br> consectetur adipiscing elit</p>
+                    <button>Download</button>
+                </div>
+                <div class="banner-right">
+                    <form class="banner__form" action="#" method="post">
+                        <h2>Try your <span>free</span> trial today</h2>
+                        <div class="banner__form-inner">
+                            <div class="banner__form-row">
+                                <input type="text" id="name" name="user.name" required>
+                                <label for="name">Name</label>
+                            </div>
+                            <div class="banner__form-row">
+                                <input type="text" id="email" name="user.email" required>
+                                <label for="email">Email</label>
+                            </div>
+                            <div class="banner__form-row">
+                                <input type="text" id="password" name="user.password" required>
+                                <label for="password">Password</label>
+                            </div>
+                        </div>
+                        <button type="submit">Get started</button>
+                    </form>
+                </div>
             </section>
-
-            <aside class="logo-bar">
-                <div class="logo-bar__image">
-                    <img src="logo-logoipsum/1.png" alt="first logo">
+        </div>
+    </div>
+    <div class="wrap-social">
+        <section class="social">
+            <div class="social__text">
+                <h2>Social media</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br> Aenean euismod bibendum laoreet.</p>
+            </div>
+            <div class="social__networks">
+                <img src="social__logo/facebook.png" alt="Facebook">
+                <img src="social__logo/twitter.png" alt="Twitter">
+                <img src="social__logo/linkedin.png" alt="LinkdIn">
+                <img src="social__logo/pinterest.png" alt="PInterest">
+                <img src="social__logo/instagram.png" alt="Instagram">
+                <img src="social__logo/github.png" alt="GitHub">
+                <img src="social__logo/other.png" alt="Other">
+            </div>
+        </section>
+    </div>
+    <div class="wrap-main1">
+        <section class="main1">
+            <div class="main1__buttons">
+                <button class="tab1">TAB1</button>
+                <button class="tab2">TAB2</button>
+                <button class="tab3">TAB3</button>
+            </div>
+            <div class="main1__content">
+                <div class="main1__content-text">
+                    <h2>Tabs with soft transitioning effect.</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod <br>
+                        bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra <br>
+                        justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque <br>
+                        penatibus et magnis dis parturient montes.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod <br>
+                        bibendum laoreet.</p>
+                    <button type="button">Download</button>
                 </div>
-                <div class="logo-bar__image">
-                    <img src="logo-logoipsum/2.png" alt="second logo">
-                 </div>
-                <div class="logo-bar__image">
-                    <img src="logo-logoipsum/3.png" alt="third logo">
-                </div>
-                <div class="logo-bar__image">
-                    <img src="logo-logoipsum/4.png" alt="fourth logo">
-                </div>
-                <div class="logo-bar__image">
-                    <img src="logo-logoipsum/5.png" alt="fifth logo">
-                </div>
-            </aside>
-
-        </main>
-        <footer>
-
-        </footer>
-    </div>  
+                <img src="main1-img.png" alt="Statue of Freedom in USA">
+            </div>
+        </section>
+    </div>
 </body>
+
 </html>
