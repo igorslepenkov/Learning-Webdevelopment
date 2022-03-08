@@ -12,7 +12,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="all__styles.css">
 </head>
 
 <body>
@@ -47,16 +47,16 @@
                         <h2>Try your <span>free</span> trial today</h2>
                         <div class="banner__form-inner">
                             <div class="banner__form-row">
-                                <input type="text" id="name" name="user.name" required>
-                                <label for="name">Name</label>
+                                <input type="text" id="banner-name" name="user.name" required>
+                                <label for="banner-name">Name</label>
                             </div>
                             <div class="banner__form-row">
-                                <input type="text" id="email" name="user.email" required>
-                                <label for="email">Email</label>
+                                <input type="text" id="banner-email" name="user.email" required>
+                                <label for="banner-email">Email</label>
                             </div>
                             <div class="banner__form-row">
-                                <input type="text" id="password" name="user.password" required>
-                                <label for="password">Password</label>
+                                <input type="text" id="banner-password" name="user.password" required>
+                                <label for="banner-password">Password</label>
                             </div>
                         </div>
                         <button type="submit">Get started</button>
@@ -85,7 +85,7 @@
     <div class="main1-wrap">
         <section class="main1">
             <div class="main1__buttons">
-                <button class="tab1">TAB1</button>
+                <button class="tab1" autofocus>TAB1</button>
                 <button class="tab2">TAB2</button>
                 <button class="tab3">TAB3</button>
             </div>
@@ -106,27 +106,27 @@
             <div class="awesome">
                 <h2 class="h2-title">WHY THIS IS AWESOME</h2>
                 <hr class="separator">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p class="p-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 <div class="main1__cards-wrap">
                     <div class="main1__card">
                         <img src="main1_logo/1.png" alt="First logo of main1">
                         <h3>Thoughtful Design</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing <br> 
-                            elit. Aenean euismod bibendum laoreet. <br> 
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing <br>
+                            elit. Aenean euismod bibendum laoreet. <br>
                             Proin gravida dolor sit amet lacus accumsan et viverra.</p>
                     </div>
                     <div class="main1__card">
                         <img src="main1_logo/2.png" alt="Second logo of main1">
                         <h3>Thoughtful Design</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing <br> 
-                            elit. Aenean euismod bibendum laoreet. <br> 
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing <br>
+                            elit. Aenean euismod bibendum laoreet. <br>
                             Proin gravida dolor sit amet lacus accumsan et viverra.</p>
                     </div>
                     <div class="main1__card">
                         <img src="main1_logo/3.png" alt="Third logo of main1">
                         <h3>Thoughtful Design</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing <br> 
-                            elit. Aenean euismod bibendum laoreet. <br> 
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing <br>
+                            elit. Aenean euismod bibendum laoreet. <br>
                             Proin gravida dolor sit amet lacus accumsan et viverra.</p>
                     </div>
                 </div>
@@ -139,7 +139,7 @@
         <section class="pricing">
             <h2 class="h2-title">PRICING OPTIONS</h2>
             <hr class="separator">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>  
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             <div class="pricing__cards-wrap">
                 <div class="pricing__card">
                     <h3 class="pricing__card__title">Basic</h3>
@@ -177,6 +177,116 @@
             </div>
         </section>
     </div>
+
+    <div class="reviews-wrap">
+        <section class="reviews">
+            <h2 class="h2-title">WHAT OUR CUSTOMERS ARE SAYING</h2>
+            <hr class="separator">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <div class="customers">
+                <div class="customer__review">
+                    <div class="review__text">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Doloribus accusamus expedita repellat similique odio aspernatur ex, architecto eaque quo
+                            suscipit.
+                        </p>
+                        <div class="triangle"></div>
+                    </div>
+                    <div class="review__name">
+                        <img src="customers__photo/davis.png" alt="Davis's photo">
+                        <div class="customers__data">
+                            <h3>Davis Rhiel Madsen</h3>
+                            <p>Manager</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="customer__review">
+                    <div class="review__text">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Doloribus accusamus expedita repellat similique odio aspernatur ex, architecto eaque quo
+                            suscipit.
+                        </p>
+                        <div class="triangle"></div>
+                    </div>
+                    <div class="review__name">
+                        <img src="customers__photo/jaydon.png" alt="Jaydon's photo">
+                        <div class="customers__data">
+                            <h3>Jaydon Rosser</h3>
+                            <p>Manager</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="customer__review">
+                    <div class="review__text">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Doloribus accusamus expedita repellat similique odio aspernatur ex, architecto eaque quo
+                            suscipit.
+                        </p>
+                        <div class="triangle"></div>
+                    </div>
+                    <div class="review__name">
+                        <img src="customers__photo/cooper.png" alt="Cooper's photo">
+                        <div class="customers__data">
+                            <h3>Cooper Dorwart</h3>
+                            <p>Manager</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <div class="stylish-wrap">
+        <div class="stylish-wrap-opacity">
+            <section class="stylish">
+                <h2 class="h2-title">STYLISH AXURE DESIGN</h2>
+                <hr class="separator">
+                <p class="p-title">Use the sections you need, remove the ones you don't.  Create gorgeous prototypes faster than ever!</p>
+                <button>Download</button>
+            </section>
+        </div>
+    </div>
+    <div class="contact-wrap">
+        <section class="contact">
+            <h2 class="h2-title">CONTACT US</h2>
+            <hr class="separator">
+            <p class="p-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <form class="contact__form" action="#">
+                <div class="form__left">
+                    <div class="form__row">
+                        <input id="contact-name" type="text" name="user.name" required>
+                        <label class="row__label" for="contact-name">Name</label>
+                    </div>
+
+                    <div class="form__row">
+                        <input id="contact-email" type="text" name="user.email" required>
+                        <label class="row__label" for="contact-email">Email</label>
+                    </div>
+
+                    <div class="form__row">
+                        <input id="contact-password" type="text" name="user.password" required>
+                        <label class="row__label" for="contact-password">Password</label>
+                    </div>
+                </div>
+                <div class="form__right">
+                    <textarea name="contact-textarea" id="contact-textarea" cols="30" rows="10" required></textarea>
+                    <label class="row__label" for="contact-textarea">Message</label>
+                </div>
+            </form>
+            <button class="contact__button" type="submit">Send message</button>
+        </section>
+    </div>
+    <footer>
+        <div class="footer__logo">
+            <img src="footer__logo/facebook.png" alt="Facebook logo">
+            <img src="footer__logo/twitter.png" alt="Twitter logo">
+            <img src="footer__logo/linkedin.png" alt="LinkedIn logo">
+            <img src="footer__logo/pinterest.png" alt="Pinterest logo">
+            <img src="footer__logo/instagram.png" alt="Instagram logo">
+            <img src="footer__logo/github.png" alt="GitHub logo">
+            <img src="footer__logo/other.png" alt="Other logo">
+        </div>
+        <p class="footer__p">© 2015 Axure Themes</p>
+    </footer>
 </body>
 
 </html>

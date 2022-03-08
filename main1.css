@@ -1,5 +1,3 @@
-@import url(pricing.css);
-
 .main1-wrap {
     padding-top: 6.88rem;
     padding-bottom: 3.63rem;
@@ -15,6 +13,7 @@
 .main1__buttons {
     display: flex;
     justify-content: flex-start;
+    border-bottom: 1px solid rgb(198, 203, 205);
 }
 
 .main1__buttons button {
@@ -28,22 +27,27 @@
 }
 
 .main1__buttons > .tab1 {
-    z-index: 2;
     width: 12.56rem;
-    margin-bottom: -2px;
-    border: 1px solid rgb(198, 203, 205);
-    border-bottom: 5px solid rgb(255, 255, 255);
+    border-bottom: none;
     border-radius: 10px 10px 0 0;
 }
 
 .buttons-half > .tab2, .buttons-half > .tab3 {
     width: 11.5rem;
-    border-bottom: 1px solid rgb(198, 203, 205);
+    border-bottom: none;
+}
+
+.main1__buttons > button:focus {
+    border: 1px solid rgb(198, 203, 205);
+    border-bottom: 5px solid rgb(255, 255, 255);
+    border-radius: 10px 10px 0 0;
+    margin-bottom: -2px;
+    outline: none;
 }
 
 .main1__content {
-    box-sizing: border-box;
     border: 1px solid rgb(198, 203, 205);
+    border-top: none;
     display: flex;
     justify-content: space-between;
     margin-bottom: 3.13rem;
@@ -110,9 +114,10 @@
     margin-bottom: 2.5rem;
     width: 10.63rem;
     border: 1px solid rgb(236, 121, 121);
+    align-self: center;
 }
 
-.awesome > p {
+.p-title {
     margin: 0;
     margin-bottom: 6.88rem;
     color: rgb(134, 135, 139);
