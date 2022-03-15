@@ -19,7 +19,7 @@
     }
     .header-wrap {
         height: 768px;
-        background-image: url(addaptive_background/background2.png);
+        background-image: url(../addaptive_background/background2.png);
     }
 }
 
@@ -62,7 +62,7 @@
 @media (max-width: 750px) {
     .header-wrap {
         margin-bottom: 0;
-        background-image: url(addaptive_background/background_mobile.png);
+        background-image: url(../addaptive_background/background_mobile.png);
     }
 
     .header {
