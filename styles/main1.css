@@ -1,0 +1,147 @@
+.main1-wrap {
+    padding-top: 6.88rem;
+    padding-bottom: 3.63rem;
+    background-color: rgb(255, 255, 255);
+}
+
+.main1 {
+    max-width: var(--main-section-width);
+    margin: var(--main-section-margin);
+}
+
+.main1__buttons {
+    max-width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: 1px solid rgb(198, 203, 205);
+}
+
+.main1__buttons input {
+ display: none;
+}
+
+.main1__buttons label {
+    text-align: center;
+    width: 11.5rem;
+    border: none;
+    margin: 0;
+    padding: 0.63rem 0;
+    font-family: var(--main-font-family);
+    cursor: pointer;
+}
+
+.main1__buttons > input:checked + label {
+    border: 1px solid rgb(198, 203, 205);
+    border-bottom: 5px solid rgb(255, 255, 255);
+    border-radius: 10px 10px 0 0;
+    margin-bottom: -2px;
+    outline: none;
+}
+
+.main1__content {
+    max-width: 100%;
+    border: 1px solid rgb(198, 203, 205);
+    border-top: none;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3.13rem;
+}
+
+.main__content > * {
+    flex-grow: 1;
+}
+
+.main1__content > img {
+    max-width: 29.38rem;
+    max-height: 31.25rem;
+}
+
+.main1__content-text {
+    margin-left: calc(5px + (100 — 5) * ((100vw — 1024px) / (1920 — 1024)));
+    margin-right: 30px;
+}
+
+.main1__content-text > h2 {
+    margin: 30px 0;
+    box-sizing: border-box;
+}
+
+.main1__content-text > p {
+    margin-bottom: 1.69rem;
+    font-family: var(--second-font-family);
+}
+
+.main1__content-text button {
+    width: 16.88rem;
+    height: 3.63rem;
+    background-color: rgb(236, 121, 121);
+    border: none;
+    color: rgb(255, 255, 255);
+    font-family: var(--main-font-family);
+}
+
+.main1__content-text button:hover {
+    background-color: rgb(171, 73, 73);
+}
+
+.main1__content-text button:active {
+    background-color: rgb(236, 121, 121);
+    box-shadow: 0px 0px 9px 3px rgb(217, 74, 74) inset;
+}
+
+.awesome {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.h2-title {
+    padding: 0;
+    font-family: var(--second-font-family);
+    line-height: 9.38rem;
+    margin: 0;
+}
+
+.separator {
+    margin: 0;
+    margin-bottom: 2.5rem;
+    width: 10.63rem;
+    border: 1px solid rgb(236, 121, 121);
+    align-self: center;
+}
+
+.p-title {
+    margin: 0;
+    margin-bottom: 6.88rem;
+    color: rgb(134, 135, 139);
+    font-family: var(--second-font-family);
+}
+
+.main1__cards-wrap {
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main1__card {
+    max-width: 23.13rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.main1__card img {
+    width: 10.63rem;
+    height: 10.63rem;
+}
+
+.main1__card h3 {
+    font-family: var(--main-font-family);
+}
+
+.main1__card p {
+    font-family: var(--second-font-family);
+}

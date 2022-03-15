@@ -1,0 +1,32 @@
+.social-wrap{
+    background-color: rgb(248, 239, 239);
+}
+
+.social {
+    max-width: var(--main-section-width);
+    margin: var(--main-section-margin);
+    display: flex;
+}
+
+.social__text {
+    max-width: 44%;
+    flex-grow: 1;
+    margin-right: 3rem;
+}
+
+.social__text p {
+    font-family: var(--second-font-family);
+}
+
+.social__networks {
+    max-width: 56%;
+    flex-grow: 1;
+    height: 8.75rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.social__networks > img {
+    max-height: 3.68rem;
+}
