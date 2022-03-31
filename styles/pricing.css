@@ -1,11 +1,11 @@
+
 .pricing-wrap {
     padding: 3.125rem 0;
-    width: var(--main-container-width);
     background-color: rgb(245, 245, 245);
 }
 
 .pricing {
-    width: var(--main-section-width);
+    max-width: var(--main-section-width);
     margin: var(--main-section-margin);
     display: flex;
     flex-direction: column;
@@ -16,12 +16,11 @@
 .pricing > p {
     margin-bottom: 4.94rem;
     font-family: var(--second-font-family);
-    font-size: 1.13rem;
     color: rgb(134, 135, 139);
 }
 
 .pricing__cards-wrap {
-    width: 100%;
+    max-width: 100%;
     display: flex;
     justify-content: space-between;
     text-align: center;
@@ -29,7 +28,7 @@
 }
 
 .pricing__card {
-    width: 370px;
+    min-width: 23.125rem;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -57,7 +56,6 @@
 .pricing__card__title {
     height: 3,75rem;
     line-height: 3,75rem;
-    font-size: 1.5rem;
     color: rgb(255, 255, 255);
 }
 
@@ -65,7 +63,6 @@
     height: 6.25rem;
     line-height: 6.25rem;
     font-family: var(--second-font-family);
-    font-size: 2.25rem;
     color: rgb(255, 255, 255);
     border-bottom: 2px solid rgb(245, 245, 245);
     border-top: 2px solid rgb(245, 245, 245);
@@ -73,7 +70,6 @@
 
 .pricing__card__addinformation{
     font-family: var(--second-font-family);
-    font-size: 1.13rem;
     background-color: rgb(255, 255, 255);
     border-bottom: 2px solid rgb(245, 245, 245);
     color: rgb(134, 135, 139);
