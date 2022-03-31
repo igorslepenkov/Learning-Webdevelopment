@@ -1,0 +1,84 @@
+.bottom {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 40px;
+    column-gap: 40px;
+    padding: 50px 40px;
+    background-color: rgb(37, 37, 37);
+    color: rgb(255, 254, 242);
+
+    .bottom__card {
+
+        h3 {
+            margin-top: 0;
+            font-size: 15px;
+        }
+
+        hr {
+            background-color: rgb(255, 254, 242);
+            height: 2px;
+        }
+
+        ul {
+            list-style: none;   
+            padding: 0;
+
+            li {
+                line-height: 35px;
+            }
+        }
+    }
+}
+
+.card1 {
+    width: 100%;
+    position: relative;
+    input {
+        height: 40px;
+        width: 100%;
+        outline: none;
+        border: 2px solid rgb(255, 254, 242);
+        background-color: rgb(37, 37, 37);
+        color: rgb(255, 254, 242);
+        font-size: 20px;
+
+        &:focus + label {
+            display: none;
+        }
+    }
+
+    label {
+        position: absolute;
+        left: 5%;
+        top: 10px;
+        font-size: 20px;
+        color: rgb(255, 254, 242);
+        z-index: 2;
+
+        &::after {
+            content: url(../arrow-white.png);
+            position: absolute;
+            left: 450px;
+        }
+    }
+}
+
+.card2 {
+    li:nth-child(1),
+    li:nth-child(2),
+    li:nth-child(3),
+    li:nth-child(4) {
+        &::after {
+            content: url(../bottom-arrow.svg);
+            margin-left: 5%;
+        }
+    }
+}
+
+.card7 {
+    li::after {
+        content: url(../bottom-arrow.svg);
+        margin-left: 5%;
+    }
+}

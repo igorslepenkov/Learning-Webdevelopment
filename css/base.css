@@ -1,0 +1,338 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+.fs1 {
+  font-size: 14px;
+}
+
+.fs2 {
+  font-size: 16px;
+}
+
+.fs3 {
+  font-size: 30px;
+}
+
+:root {
+  display: flex;
+  justify-content: center;
+  font-family: "Roboto", sans-serif;
+  color: #333333;
+  font-size: 14px;
+}
+
+body {
+  margin: 0;
+  width: 1440px;
+}
+
+.ml {
+  margin-left: 80px;
+}
+
+.mb {
+  margin-bottom: 20px;
+}
+
+h2 {
+  text-transform: uppercase;
+}
+
+button {
+  cursor: pointer;
+}
+
+li {
+  cursor: pointer;
+}
+
+.header-top {
+  color: #fffef2;
+}
+.header-top .first-line {
+  background-color: #a6672b;
+  display: flex;
+  justify-content: center;
+  gap: 10%;
+}
+.header-top .second-line {
+  background-color: #252525;
+  display: flex;
+  justify-content: center;
+}
+.header-top .second-line p::after {
+  content: url(../header-banner/plus.svg);
+  margin-left: 25px;
+}
+
+.header-banner {
+  background-image: url(../header-banner/background.png);
+  background-size: 100% 100%;
+  height: 606px;
+}
+.header-banner .header {
+  display: flex;
+  align-items: center;
+  height: 13%;
+  margin: 0 50px;
+}
+.header-banner .header a {
+  justify-self: flex-end;
+  text-decoration: none;
+  color: #fffef2;
+}
+.header-banner .header a:first-of-type {
+  margin-right: 25px;
+}
+
+.logo-nav {
+  display: flex;
+  width: 80%;
+}
+.logo-nav .navigation {
+  width: 80%;
+}
+.logo-nav .navigation .navigation__list {
+  list-style: none;
+  color: #fffef2;
+  display: flex;
+  justify-content: flex-start;
+  gap: 25px;
+}
+
+.banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #fffef2;
+  margin-left: 240px;
+  height: 87%;
+}
+.banner * {
+  width: 400px;
+}
+
+.hair {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  height: 720px;
+}
+.hair .hair__left {
+  background-image: url(../hair/left_background.png);
+  background-size: 100% 100%;
+}
+.hair .hair__right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #cfc7c0;
+  height: 100%;
+  position: relative;
+}
+.hair .hair__right .page__title {
+  position: absolute;
+  top: 0;
+  right: 5%;
+  align-self: end;
+  justify-self: flex-start;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.hair .hair__right .content {
+  display: flex;
+  margin: 0 40px;
+}
+.hair .hair__right .content .price {
+  color: #cfc7c0;
+  background-color: #333333;
+  text-align: center;
+  height: 60px;
+  line-height: 60px;
+}
+.hair .hair__right .content button {
+  width: 100%;
+  height: 60px;
+  background-color: transparent;
+  border: 1px solid rgba(51, 51, 51, 0.2);
+  position: relative;
+}
+.hair .hair__right .content button::after {
+  content: url(../arrow.svg);
+  position: absolute;
+  right: 5%;
+}
+
+.our-products {
+  background-color: #fffef2;
+  padding-top: 100px;
+}
+.our-products .products__cards {
+  display: flex;
+  overflow-x: scroll;
+}
+.our-products .products__cards::-webkit-scrollbar {
+  height: 5px;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.our-products .products__cards::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.vitamin {
+  background-color: #fffef2;
+  padding: 190px 0 0 0;
+}
+.vitamin .vitamin__content {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-template-rows: 1fr;
+}
+.vitamin .vitamin__content .content__text {
+  width: 400px;
+  margin-right: 118px;
+}
+.vitamin .vitamin__content .content__text button {
+  width: 100%;
+  height: 60px;
+  background-color: transparent;
+  border: 1px solid rgba(51, 51, 51, 0.2);
+  position: relative;
+  margin: 30px 0;
+}
+.vitamin .vitamin__content .content__text button::after {
+  content: url(../arrow.svg);
+  position: absolute;
+  right: 5%;
+}
+.vitamin .vitamin__content .content__image {
+  background-image: url(../vitamin/vitamin_image.png);
+  background-size: 100% 100%;
+}
+
+.hilfe {
+  background-color: #fffef2;
+  padding: 190px 0;
+}
+.hilfe .hilfe__content {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-template-rows: 1fr;
+}
+.hilfe .hilfe__content .content__text {
+  width: 400px;
+  margin-right: 118px;
+}
+.hilfe .hilfe__content .content__text button {
+  width: 300px;
+  height: 60px;
+  background-color: transparent;
+  border: 1px solid rgba(51, 51, 51, 0.2);
+  position: relative;
+  margin: 30px 0;
+  text-align: start;
+}
+.hilfe .hilfe__content .content__text button::after {
+  content: url(../arrow.svg);
+  position: absolute;
+  right: 5%;
+  transform: rotate(315deg);
+}
+.hilfe .hilfe__content .content__image {
+  background-image: url(../hilfe/hilfe.png);
+  background-size: 100% 100%;
+}
+
+.quote {
+  background-color: #fffef2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 0 200px 0;
+}
+.quote blockquote {
+  text-align: center;
+  width: 675px;
+  margin-bottom: 0;
+}
+
+.bottom {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  row-gap: 40px;
+  column-gap: 40px;
+  padding: 50px 40px;
+  background-color: #252525;
+  color: #fffef2;
+}
+.bottom .bottom__card h3 {
+  margin-top: 0;
+  font-size: 15px;
+}
+.bottom .bottom__card hr {
+  background-color: #fffef2;
+  height: 2px;
+}
+.bottom .bottom__card ul {
+  list-style: none;
+  padding: 0;
+}
+.bottom .bottom__card ul li {
+  line-height: 35px;
+}
+
+.card1 {
+  width: 100%;
+  position: relative;
+}
+.card1 input {
+  height: 40px;
+  width: 100%;
+  outline: none;
+  border: 2px solid #fffef2;
+  background-color: #252525;
+  color: #fffef2;
+  font-size: 20px;
+}
+.card1 input:focus + label {
+  display: none;
+}
+.card1 label {
+  position: absolute;
+  left: 5%;
+  top: 10px;
+  font-size: 20px;
+  color: #fffef2;
+  z-index: 2;
+}
+.card1 label::after {
+  content: url(../arrow-white.png);
+  position: absolute;
+  left: 450px;
+}
+
+.card2 li:nth-child(1)::after,
+.card2 li:nth-child(2)::after,
+.card2 li:nth-child(3)::after,
+.card2 li:nth-child(4)::after {
+  content: url(../bottom-arrow.svg);
+  margin-left: 5%;
+}
+
+.card7 li::after {
+  content: url(../bottom-arrow.svg);
+  margin-left: 5%;
+}
+
+.footer {
+  height: 70px;
+  background-color: #252525;
+  display: flex;
+  align-items: center;
+  border-top: 3px solid #fffef2;
+}
+.footer img {
+  margin-left: 40px;
+}
+
+/*# sourceMappingURL=base.css.map */
